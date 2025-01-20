@@ -1,0 +1,57 @@
+/*section_bouquets*/
+.compositions{
+    margin: 40px 10px;
+}
+.bouquet_img_container{
+    width: 300px;
+    height: 270px;
+    position: relative;
+}
+.bouquet_img_container img{
+    object-fit: fill;
+    border-radius: 30px;
+}
+.bouquets{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+.bouquet{
+    display: flex;
+}
+.texte_souligné{
+    text-decoration: underline;
+}
+.text_img_bouquet p:nth-child(1){
+    font-size: large;
+    font-weight: bold;
+}
+
+.text_img_bouquet p{
+    font-weight: bold;
+}
+.text_img_bouquet{
+    position: absolute;
+	width: 300px;
+	height: 270px;
+	top: 10;
+    padding: 120px 10px 10px 10px;
+    color: #321f1100;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.text_img_bouquet:hover{
+    background-color: #fff4eca8;
+    position: absolute;
+	width: 300px;
+	height: 270px;
+	top: 10;
+    padding: 120px 10px 10px 10px;
+    color: #321f11;
+    border-radius: 30px;
+    transition: ease-in 200ms;
+}

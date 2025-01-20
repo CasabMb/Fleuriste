@@ -20,7 +20,7 @@ return <>
                 <li onClick={() => navigate('/')}>
                     Accueil
                 </li>
-                <li>
+                <li onClick={() => navigate('/CompositionsPage')}>
                     Nos compositions
                 </li>
                 <li>

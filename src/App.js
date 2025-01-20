@@ -4,6 +4,7 @@ import HeaderComponent from './Components/HeaderComponent';
 import FooterComponent from './Components/FooterComponent';
 import HomePage from './Pages/HomePage';
 import ContactPage from './Pages/ContactPage';
+import CompositionsPage from './Pages/CompositionsPage';
 
 function App() {
   return <>
@@ -12,6 +13,7 @@ function App() {
     <Routes>
       <Route path="/" element={<HomePage />} />
       <Route path="/ContactPage" element={<ContactPage />} />
+      <Route path="/CompositionsPage" element={<CompositionsPage />} />
       
     </Routes>
     <FooterComponent />
