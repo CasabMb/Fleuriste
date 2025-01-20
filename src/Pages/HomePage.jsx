@@ -1,8 +1,12 @@
 import React from 'react'
+import HeroComponent from '../Components/HeroComponent'
 
 function HomePage() {
   return <>
-    <div>Page d'accueil</div>
+  <main>
+    <HeroComponent />
+
+  </main>
   </>
 }
 
