@@ -1,0 +1,60 @@
+footer {
+	background-color: #fff4ec;
+	color: #945b31;
+	font-family: jacquesfrancois;
+	font-size: small;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0px 30px;
+	padding-bottom: 5px;
+}
+.courriel_contact_container {
+	width: 60px;
+}
+.resaux_container {
+	width: 20px;
+	height: 20px;
+}
+
+.footer_partie_un a {
+	text-decoration: none;
+	color: white;
+	background-color: #945b31;
+	border-radius: 50px;
+	padding: 0px 10px;
+	font-family: poppins;
+	font-weight: bold;
+}
+
+.footer_partie_deux {
+	font-size: 10px;
+	display: flex;
+	flex-direction: column;
+}
+
+.mentions_legales {
+	margin-top: 20px;
+	display: flex;
+	gap: 10px;
+	text-decoration: underline;
+	padding-left: 40px;
+}
+.mentions_legales p{
+    cursor: pointer;
+}
+.reseaux_sociaux {
+	display: flex;
+	gap: 15px;
+}
+.reseaux_sociaux img:hover{
+    transform: scale(1.5);
+    transition: ease-in 200ms;
+}
+.icone_twitter img {
+	border-radius: 5px;
+}
+.footer_partie_un a:hover{
+	background-color: #98d3c5;
+    transition: ease-in 200ms;
+}

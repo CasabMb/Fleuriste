@@ -14,8 +14,8 @@ function App() {
       <Route path="/ContactPage" element={<ContactPage />} />
       
     </Routes>
-    </BrowserRouter>
     <FooterComponent />
+    </BrowserRouter>
     </>;
 }
 
