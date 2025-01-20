@@ -1,0 +1,35 @@
+/*header*/
+
+header {
+	background-color: #fff4ec;
+	color: white;
+	display: flex;
+    gap: 20%;
+	align-items: center;
+    border-bottom: #945a31be 2px solid;
+}
+#logo_container {
+	width: 180px;
+	padding-left: 30px;
+}
+header li {
+	list-style: none;
+	color:#945a31be;
+	font-family: poppins;
+	font-size: small;
+	font-weight: bold;
+	text-align: center;
+    text-wrap: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+header li:hover{
+    color: #945b31;
+}
+header ul {
+    display: flex;
+    gap: 5%;
+}
+.header-links{
+    width: 40%;
+}
