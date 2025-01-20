@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Fleuriste/static/css/main.f855e6bc.css",
+    "main.js": "/Fleuriste/static/js/main.150befe1.js",
+    "static/js/488.2caf5121.chunk.js": "/Fleuriste/static/js/488.2caf5121.chunk.js",
+    "static/media/logosb.png": "/Fleuriste/static/media/logosb.df812250b7a65267bb22.png",
+    "index.html": "/Fleuriste/index.html",
+    "main.f855e6bc.css.map": "/Fleuriste/static/css/main.f855e6bc.css.map",
+    "main.150befe1.js.map": "/Fleuriste/static/js/main.150befe1.js.map",
+    "488.2caf5121.chunk.js.map": "/Fleuriste/static/js/488.2caf5121.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.150befe1.js"
+  ]
+}
