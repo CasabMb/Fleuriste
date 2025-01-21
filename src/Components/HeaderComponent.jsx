@@ -23,7 +23,7 @@ return <>
                 <li onClick={() => navigate('/CompositionsPage')}>
                     Nos compositions
                 </li>
-                <li>
+                <li onClick={() => navigate('/LangagePage')}>
                     Langage des fleurs
                 </li>
                 <li onClick={() => navigate('/ContactPage')}>
