@@ -1,0 +1,129 @@
+/* formulaire contact */
+
+
+#contact_page {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.contact_main {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #321f11;
+}
+
+#contact_form {
+    width: 50%;
+    border: 2px solid rgba(128, 128, 128, 0.151);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20px;
+}
+
+#contact_page h2 {
+    font-family: Poppins;
+    text-shadow: 2px 2px 2px rgba(128, 128, 128, 0.459);
+    color: #8b5630;
+    padding-bottom: 10px;
+}
+.input_blocks {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+#contact_page label {
+    width: 40%;
+}
+#civilities,
+#first_name,
+#name,
+#email,
+#tel,
+#demand {
+    background-color: #fdece0;
+    width: 60%;
+    border-radius: 10px;
+    border-style: none;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+.input_color {
+    background-color: #fdece0;
+}
+#validation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 150px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-color: #945b31;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid #fce0cd;
+}
+#validation:hover {
+    border: 1px solid #fce0cd;
+    background-color: #85c5b6;
+}
+#required_fields {
+    font-size: 12px;
+    font-style: italic;
+    font-weight: lighter;
+}
+#block_message {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+#contact_page textarea {
+    width: 100%;
+    background-color: #fdece0;
+    border-radius: 10px;
+    border-style: none;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding: 10px;
+    resize: none;
+}
+#validation_block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+}
+
+
+
+/* Map*/
+#block_adress p span {
+    font-weight: bold;
+}
+
+#block_adress {
+    background-color: #fdece0;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.map_container {
+    height: auto;
+}
+.map_container img {
+    border-radius: 8px;
+}
+#map_adress {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
