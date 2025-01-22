@@ -55,3 +55,12 @@
     border-radius: 30px;
     transition: ease-in 200ms;
 }
+.titre_page_compositions, .description_page_compositions{
+    text-align: center;
+    color: #321f11;
+
+}   
+.titre_page_compositions{
+    padding: 20px 0px ;
+    font-size: 2.2em;
+}

@@ -6,9 +6,20 @@ import rose from '../Asset/Images/rose.png';
 import hortensia from '../Asset/Images/hortensia.png';
 import germini from '../Asset/Images/germini.jpg';
 import tulipe from '../Asset/Images/tulipe.jpg';
+import { Helmet } from 'react-helmet';
 
 function LangagePage() {
     return <>
+        <Helmet>
+            <title>Langage des fleurs - Sweet Blossom</title>
+            <meta name="description" content="Découvrez la signification et le langage des fleurs comme la pivoine, le lisianthus, la rose, l'hortensia, le germini, et la tulipe. Chaque fleur a une histoire à raconter." />
+            <meta name="keywords" content="langage des fleurs, pivoine, lisianthus, rose, hortensia, germini, tulipe, signification des fleurs, Sweet Blossom" />
+            <meta property="og:title" content="Langage des fleurs - Sweet Blossom" />
+            <meta property="og:description" content="Explorez la beauté et les significations uniques de chaque fleur. Parfait pour choisir la fleur qui transmet vos émotions." />
+            <meta property="og:image" content={pivoine} />
+            <meta property="og:url" content="https://www.sweetblossom.com/langage-des-fleurs" />
+            <meta name="robots" content="index, follow" />
+        </Helmet>
         <section class="section">
             <div className='section_items'>
                 <div className='img_container'>

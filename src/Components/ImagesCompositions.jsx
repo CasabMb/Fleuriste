@@ -174,13 +174,13 @@ function ImagesCompositions() {
                         <div className="bouquet_img_container">
                             <img
                                 src={bouquet.image}
-                                alt={`Bouquet ${bouquet.name}`}
-                            />
+                                alt={`Bouquet ${bouquet.name} composé de ${bouquet.composition}. Parfait pour les occasions spéciales.`}
+                                />
                         </div>
                         <div className="text_img_bouquet">
                             <p>{bouquet.name}</p>
-                            <p><span className="texte_souligné">Composition: </span>{bouquet.composition}</p>
-                            <p><span className="texte_souligné">Couleurs principales: </span>{bouquet.colors}</p>
+                            <p><span className="texte_souligné">Composition:</span> {bouquet.composition}</p>
+                            <p><span className="texte_souligné">Couleurs principales:</span> {bouquet.colors}</p>
                             {/* <p>Prix: {bouquet.price}€</p> */}
                         </div>
                     </div>

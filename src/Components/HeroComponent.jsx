@@ -6,7 +6,7 @@ function HeroComponent() {
     return <>
         <section className="hero">
             <div className="text_hero">
-                <h1>Offrez un bouquet inoubliable pour la fête des mères</h1>
+                <h1>Offrez un bouquet floral inoubliable pour la fête des mères</h1>
                 <p>Exprimez votre amour avec élégance grâce à nos créations florales uniques. Faites de cette journée une célébration mémorable pour toutes les mamans.</p>
             </div>
             <div className="hero_hover">

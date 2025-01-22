@@ -21,22 +21,22 @@ function AboutUsComponent() {
             <div className="photos_accueil">
                 <div className="accueil_img_container">
                     <a onClick={() => navigate('/CompositionsPage')}>
-                        <img src={img12} alt="photo d'un bouquet de fleurs"/>
+                        <img src={img12} alt="Photo d'un bouquet floral d'hortensia et de roses"/>
                     </a>
                 </div>
                 <div className="accueil_img_container">
                     <a onClick={() => navigate('/CompositionsPage')}>
-                        <img src={img17} alt="photo d'un bouquet de fleurs"/>
+                        <img src={img17} alt="Photo d'un bouquet floral de roses et de geminis"/>
                     </a>
                 </div>
                 <div className="accueil_img_container">
                     <a onClick={() => navigate('/CompositionsPage')}>
-                        <img src={img19} alt="photo d'un bouquet de fleurs"/>
+                        <img src={img19} alt="Photo d'un bouquet floral de roses, pivoines et tulipes"/>
                     </a>
                 </div>
                 <div className="accueil_img_container">
                     <a onClick={() => navigate('/CompositionsPage')}>
-                        <img src={img22} alt="photo d'un bouquet de fleurs"/>
+                        <img src={img22} alt="Photo d'un bouquet floral de roses et gemini"/>
                     </a>
                 </div>
             </div>
