@@ -12,9 +12,9 @@ function MapComponent() {
             </div>
             <div id="block_adress">
                 <p> <span>Sweet Blossom</span> </p>
-                <p> <span>393, Rue du Général de Gaulle</span> </p>
+                <p> <span>3, Avenue du Général de Gaulle</span> </p>
                 <p> <span>59700 MARCQ-EN-BAROEUL</span> </p>
-                <p>Tél : 03 20 74 87 30</p>
+                <p>Tél : 03 12 34 56 78</p>
                 <p>email : sweetblossom@gmail.com</p>
                 <p id="opening_days">
                     Du mardi au vendredi de 9h à 18h, le samedi de 9h à 19h et le

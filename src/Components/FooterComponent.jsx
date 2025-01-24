@@ -12,23 +12,25 @@ function FooterComponent() {
 
     return <>
         <footer>
-            <div className="footer_partie_un">
+            <div className="footer_partie_un" onClick={() => navigate('/ContactPage')}>
                 <div className="courriel_contact_container">
                     <img
                         src={courriel}
                         alt="icone courriel-de-contact"
                     />
                 </div>
-                <a onClick={() => navigate('/ContactPage')}>
+                <p>
                     Contactez nous
-                </a>
+                </p>
             </div>
             <div className="footer_partie_deux">
-                <p>
-                    Du mardi au vendredi de 9h à 18h, le samedi de 9h à 19h et le dimanche
-                    de 9h à 13h - Fermé le dimanche après-midi et les jours fériés.
-                </p>
-                <p>Zones de livraison : Lille et sa Métropole</p>
+                <div className='horaires'>
+                    <p>
+                        Du mardi au vendredi de 9h à 18h, le samedi de 9h à 19h et le dimanche
+                        de 9h à 13h - Fermé le dimanche après-midi et les jours fériés.
+                    </p>
+                    <p>Zones de livraison : Lille et sa Métropole</p>
+                </div>
                 <div className="mentions_legales">
                     <p>Conditions de Vente (CGV)</p>
                     <p>Charte de protection des données</p>

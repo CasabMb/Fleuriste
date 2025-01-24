@@ -17,21 +17,22 @@ footer {
 	height: 20px;
 }
 
-.footer_partie_un a {
-	text-decoration: none;
+.footer_partie_un p {
 	color: white;
 	background-color: #945b31;
 	border-radius: 50px;
 	padding: 0px 10px;
 	font-family: poppins;
 	font-weight: bold;
+}
+.footer_partie_un{
 	cursor: pointer;
 }
-
 .footer_partie_deux {
 	font-size: 10px;
 	display: flex;
 	flex-direction: column;
+	align-items: center;
 }
 
 .mentions_legales {
@@ -55,7 +56,55 @@ footer {
 .icone_twitter img {
 	border-radius: 5px;
 }
-.footer_partie_un a:hover{
+.footer_partie_un:hover p{
 	background-color: #98d3c5;
     transition: ease-in 200ms;
+}
+
+
+/* media query */
+@media (max-width: 1770px){
+
+}
+@media (max-width: 1670px){
+
+}
+@media (max-width: 1370px){
+
+}
+@media (max-width: 1150px){
+
+}
+@media (max-width: 950px){
+
+}
+@media (max-width: 920px){
+	footer{
+		flex-direction: column;
+		gap: 5px;
+		padding: 0px 5px;
+	}
+	.courriel_contact_container {
+		width: 50px;
+	}
+	.resaux_container {
+		width: 20px;
+		height: 20px;
+		margin: 10% 0 5% 0;
+	}
+	.mentions_legales p{
+		font-size: x-small;
+	}
+	.footer_partie_un p{
+		font-size: x-small;
+	}
+	.horaires{
+		width: 70%;
+	}
+}
+@media (max-width: 570px){
+
+}
+@media (max-width: 440px){
+	
 }
