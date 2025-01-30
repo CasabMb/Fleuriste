@@ -12,7 +12,7 @@ import PopUpComponent from './Components/PopUpComponent';
 
 function App() {
   return <>
-    <BrowserRouter>
+    <BrowserRouter basename="/Fleuriste">
     <HeaderComponent />
     <Routes>
       <Route path="/" element={<HomePage />} />
