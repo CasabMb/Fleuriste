@@ -1,4 +1,4 @@
-#🌸 Sweet Blossom - Site vitrine pour un fleuriste 🌿
+##🌸 Sweet Blossom - Site vitrine pour un fleuriste 🌿
 
 Sweet Blossom est un site vitrine élégant conçu pour mettre en valeur les compositions florales d'une boutique spécialisée. Le projet vise à offrir une navigation agréable, une présentation claire des collections florales, et à renforcer la présence en ligne de la boutique.
 
@@ -15,7 +15,9 @@ React Helmet pour le SEO.
 
 ## 🌐 Découvrez Sweet Blossom  
 
-Accédez à la démonstration en ligne ici : Sweet Blossom - Site vitrine 🌸
+Accédez à la démonstration en ligne ici : [Sweet Blossom - Site vitrine](https://casabmb.github.io/Fleuriste)🌸
+
+
 
 # Getting Started with Create React App
 
