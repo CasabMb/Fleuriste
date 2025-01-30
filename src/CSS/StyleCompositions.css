@@ -62,7 +62,7 @@
 }   
 .titre_page_compositions{
     padding: 20px 0px ;
-    font-size: 2.2em;
+    font-size: 2em;
 }
 
 
@@ -89,13 +89,13 @@
         padding: 0px 10px ;    
     }
     .bouquet_img_container{
-        width: 150px;
-        height: 136px;
+        width: 170px;
+        height: 156px;
         position: relative;
     }
     .text_img_bouquet{
-        width: 150px;
-        height: 136px;
+        width: 170px;
+        height: 156px;
         top: 10;
         padding: 10px;
         font-size: small;
@@ -104,8 +104,8 @@
     .text_img_bouquet:hover{
         background-color: #fff4eca8;
         position: absolute;
-        width: 150px;
-        height: 136px;
+        width: 170px;
+        height: 156px;
         top: 10;
         padding: 10px;
         color: #321f11;
@@ -117,8 +117,18 @@
 
 }
 @media (max-width: 570px){
-
+    .titre_page_compositions{
+        font-size: 1.2em;
+    }
 }
 @media (max-width: 440px){
-	
+	.bouquet_img_container, .text_img_bouquet{
+        width: 150px;
+        height: 136px;
+    }
+    .text_img_bouquet:hover{
+        width: 150px;
+        height: 136px;
+        transition: ease-in 200ms;
+    }
 }

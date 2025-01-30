@@ -18,7 +18,8 @@ function HomePage() {
       <meta name="author" content="Sweet Blossom" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     </Helmet>
-    <main>
+    <main id='home_page'>
+      <h1>Bienvenue sur Sweet Blossom</h1>
       <HeroComponent />
       <AboutUsComponent />
 

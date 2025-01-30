@@ -1,4 +1,19 @@
 /* Container */
+#langage_des_fleurs{
+    color: #321f11;
+}
+#langage_des_fleurs h1, #langage_des_fleurs p{
+    text-align: center;
+}
+#langage_des_fleurs h1{
+    font-size: 2em;
+    margin: 20px 10px;
+}
+#langage_des_fleurs p{
+    font-size: 1em;
+    width: 70%;
+    margin: auto;
+}
 .section {
 	padding-top: 40px;
 	padding-bottom: 40px;
@@ -40,7 +55,7 @@
     font-family:poppins ;
     font-weight: bold;
     margin: 0;
-    font-size: 1.2em; 
+    font-size: 1.5em; 
     text-align: center;
     padding-top: 5px;
 }
@@ -84,7 +99,13 @@
     .section_items{
         width: 100%;
     }
-
+    #langage_des_fleurs h1{
+        font-size: 1.2em;
+    }
+    #langage_des_fleurs p {
+        width: 90%;
+        font-size: small;
+    }
 }
 @media (max-width: 440px){
 	

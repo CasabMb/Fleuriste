@@ -13,7 +13,20 @@
     flex-direction: row;
     justify-content: space-between;
     color: #321f11;
+    flex-direction: column;
 }
+.contact_text{
+    text-align: center;
+}
+.contact_text h1{
+    font-size: 2em;
+    margin: 20px 10px;
+}
+.contact_text p{
+    width:70%;
+    margin: auto;
+}
+/*Formulaire*/
 
 #contact_form {
     width: 50%;
@@ -154,6 +167,10 @@
     #contact_form {
         width: 100%;
     }
+    .contact_text p{
+        width: 80%;
+        margin: auto;
+    }
 }
 @media (max-width: 920px){
 
@@ -175,7 +192,18 @@
     #block_adress{
         font-size: small;
     }
+    .contact_text p{
+        width: 90%;
+        margin: auto;
+    }
+    .contact_text h1{
+        font-size: 1.2em;
+        width: 90%;
+        margin: 20px auto;
+    }
 }
 @media (max-width: 440px){
-	
+	.contact_text p{
+        font-size: small;
+    }
 }

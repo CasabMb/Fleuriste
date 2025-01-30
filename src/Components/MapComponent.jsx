@@ -1,5 +1,5 @@
 import React from "react";
-import GoogleMapImage from "../Asset/Images/Google_map.png";
+import GoogleMapImage from "../Asset/Images/Google_map.webp";
 
 function MapComponent() {
     return <>

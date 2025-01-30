@@ -1,9 +1,17 @@
 /*presentation*/
-
+#about_us{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+#about_us h2{
+    color: #321f11;
+    font-size: 2em;
+}
 .presentation{
     color: #321f11;
     text-align: center;
-    max-width: 65%;
+    width: 80%;
     margin: auto;
 }
 .presentation h2{
@@ -18,32 +26,45 @@
 /*photos accueil*/
 
 .accueil_img_container{
-    width: 200px;
-    cursor: pointer;
+    width: 250px;
 }
 .accueil_img_container img{
     object-fit: fill;
     border-radius: 30px;
-    box-shadow:  5px 5px 15px #806451,
-                -5px -5px 15px #ffffff;
 }
-.accueil_img_container img:hover{
-    box-shadow:  12px 12px 24px #806451,
-                -12px -12px 24px #ffffff;
-    transition: ease-in 200ms;
-
-}
-
 .photos_accueil{
     display: flex;
-    max-width: 80%;
+    width: 100%;
     margin: auto;
     justify-content: space-around;
-    padding: 10px 0px 60px 0px;
+    padding: 60px 20px ;
 	flex-wrap: wrap;
 	gap: 30px;
+    /* background-color: #945b31; */
+    background-color: #fce0cd;
+    /* background: linear-gradient(to top, #fce0cd, #945b31, #fce0cd); */
 }
-
+#about_us button{
+    width: 40%;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #945b31;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid #fce0cd;
+    font-size: large;
+    margin: 50px 0;
+}
+#about_us button:hover{
+    background-color: #85c5b6;
+    transition: ease-in 200ms;
+}
+.livraison{
+    display: flex;
+    align-self: flex-start;
+    margin-left: 2%;    
+}
 
 /* media query */
 @media (max-width: 1770px){
@@ -60,15 +81,44 @@
 }
 @media (max-width: 950px){
     .accueil_img_container{
-        width: 150px;
+        width: 160px;
+    }
+
+    #about_us button{
+        font-size: medium;
+        width: 50%;
     }
 }
 @media (max-width: 920px){
 
 }
 @media (max-width: 570px){
-
+    #about_us button{
+        font-size: small;
+        width: 80%;
+    }
+    .presentation h2{
+        font-size: 1.2em;
+    }
+    .livraison{
+        font-size: 0.9em;
+    }
 }
 @media (max-width: 440px){
-	
+	#about_us button{
+        font-size: small;
+        width: 85%;
+    }
+    .accueil_img_container{
+        width: 150px;
+    }
+    .presentation {
+        width: 90%;
+    }
+}
+@media (max-width: 360px){
+    .accueil_img_container{
+        width: 135px;
+    }
+
 }

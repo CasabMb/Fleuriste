@@ -1,4 +1,4 @@
-import Logo from '../Asset/Images/logosb.png';
+import Logo from '../Asset/Images/logosb.webp';
 import { useNavigate } from 'react-router-dom';
 import '../CSS/StyleHeader.css';
 import icone_menu from '../Asset/icons/icone_menu.png';

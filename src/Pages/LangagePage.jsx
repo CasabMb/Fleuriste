@@ -1,11 +1,11 @@
 import React from 'react'
 import '../CSS/StyleLangageDesFleurs.css';
-import pivoine from '../Asset/Images/pivoine.jpg';
-import lisantus from '../Asset/Images/lisianthus.jpg';
-import rose from '../Asset/Images/rose.png';
-import hortensia from '../Asset/Images/hortensia.png';
-import germini from '../Asset/Images/germini.jpg';
-import tulipe from '../Asset/Images/tulipe.jpg';
+import pivoine from '../Asset/Images/pivoine.webp';
+import lisantus from '../Asset/Images/lisianthus.webp';
+import rose from '../Asset/Images/rose.webp';
+import hortensia from '../Asset/Images/hortensia.webp';
+import germini from '../Asset/Images/germini.webp';
+import tulipe from '../Asset/Images/tulipe.webp';
 import { Helmet } from 'react-helmet';
 
 function LangagePage() {
@@ -20,90 +20,94 @@ function LangagePage() {
             <meta property="og:url" content="https://www.sweetblossom.com/langage-des-fleurs" />
             <meta name="robots" content="index, follow" />
         </Helmet>
-        <section class="section">
-            <div className='section_items'>
-                <div className='img_container'>
-                    <img src={pivoine} alt="Pivoine rose"/>
+        <main id='langage_des_fleurs'>
+            <h1>Découvrez les significations et émotions derrière chaque fleur</h1>
+            <p>Les fleurs ne sont pas seulement belles, elles racontent aussi des histoires. À travers le langage des fleurs, découvrez les significations uniques de chaque variété, de la pivoine élégante à la tulipe intemporelle.</p>
+            <section class="section">
+                <div className='section_items'>
+                    <div className='img_container'>
+                        <img src={pivoine} alt="Pivoine rose"/>
+                    </div>
+                    <div className="description">
+                        <h2>La Pivoine</h2>
+                        <p>
+                            Délicate et pleine de grâce, la pivoine se décline en mille émotions. La rose murmure une timidité naissante, 
+                            tandis que la rouge s’enflamme dans une passion ardente. Le mauve célèbre l’amitié sincère, 
+                            et la blanche offre un merci du fond du cœur, un éclat de reconnaissance à un être cher.
+                        </p>
+                    </div>
                 </div>
-                <div className="description">
-                    <h2>La Pivoine</h2>
-                    <p>
-                        Délicate et pleine de grâce, la pivoine se décline en mille émotions. La rose murmure une timidité naissante, 
-                        tandis que la rouge s’enflamme dans une passion ardente. Le mauve célèbre l’amitié sincère, 
-                        et la blanche offre un merci du fond du cœur, un éclat de reconnaissance à un être cher.
-                    </p>
+                <div className='section_items'>
+                    <div className='img_container'>
+                        <img  src={lisantus} alt="Lisantus"/>   
+                    </div>
+                    <div className="description">
+                        <h2>Le Lisianthus</h2>
+                        <p>
+                            Élégant et raffiné, le lisianthus incarne le respect et la gratitude. 
+                            Parfait pour témoigner d’une admiration discrète, il illumine les bouquets de mariée 
+                            et apporte une touche champêtre empreinte de douceur.
+                        </p>
+                    </div>
                 </div>
-            </div>
-            <div className='section_items'>
-                <div className='img_container'>
-                    <img  src={lisantus} alt="Lisantus"/>   
+            
+                <div className='section_items'>
+                    <div className='img_container'>
+                        <img  src={rose} alt="Rose"/>   
+                    </div>
+                    <div class="description">
+                        <h2>La Rose</h2>
+                        <p>
+                            Incontournable reine des fleurs, la rose porte mille messages. La rose rose caresse l’amitié et la tendresse, 
+                            la blanche éclaire la pureté et l’amour parfait, et l’orange danse dans une joie éclatante. 
+                            Offrez une rose et laissez parler votre cœur.
+                        </p>
+                    </div>
                 </div>
-                <div className="description">
-                    <h2>Le Lisianthus</h2>
-                    <p>
-                        Élégant et raffiné, le lisianthus incarne le respect et la gratitude. 
-                        Parfait pour témoigner d’une admiration discrète, il illumine les bouquets de mariée 
-                        et apporte une touche champêtre empreinte de douceur.
-                    </p>
+            
+                <div className='section_items'>
+                    <div className='img_container'>
+                        <img  src={hortensia} alt="Hortensia"/>     
+                    </div>
+                    <div class="description">
+                        <h2>L'Hortensia</h2>
+                        <p>
+                            Multicolore et mystérieux, l’hortensia est une fleur des émotions profondes. 
+                            Le rose chuchote un amour sincère, le blanc respire la paix et l’innocence, 
+                            le bleu évoque le souvenir et la mélancolie, et le violet s’empreint d’un doux recueillement.
+                        </p>
+                    </div>
                 </div>
-            </div>
-        
-            <div className='section_items'>
-                <div className='img_container'>
-                    <img  src={rose} alt="Rose"/>   
+            
+                <div className='section_items'>
+                    <div className='img_container'>
+                        <img  src={germini} alt="Le Germini"/> 
+                    </div>
+                    <div class="description">
+                        <h2>Le Germini</h2>
+                        <p>
+                            Petite étoile solaire, le germini est l’incarnation de la joie et de la vitalité. 
+                            Sa lumière vive illumine les cœurs et diffuse une énergie positive et contagieuse, 
+                            un éclat de bonheur à chaque regard.
+                        </p>
+                    </div>
                 </div>
-                <div class="description">
-                    <h2>La Rose</h2>
-                    <p>
-                        Incontournable reine des fleurs, la rose porte mille messages. La rose rose caresse l’amitié et la tendresse, 
-                        la blanche éclaire la pureté et l’amour parfait, et l’orange danse dans une joie éclatante. 
-                        Offrez une rose et laissez parler votre cœur.
-                    </p>
+            
+                <div className='section_items'>
+                    <div className='img_container'>
+                        <img  src={tulipe} alt="La Tulipe"/>    
+                    </div>
+                    <div class="description">
+                        <h2>La Tulipe</h2>
+                        <p>
+                            Élégante et intemporelle, la tulipe raconte l’amour sous toutes ses formes. 
+                            Rouge pour la passion, blanche pour la sincérité, elle exprime des sentiments 
+                            profonds et universels avec une simplicité désarmante.
+                        </p>
+                    </div>
                 </div>
-            </div>
-        
-            <div className='section_items'>
-                <div className='img_container'>
-                    <img  src={hortensia} alt="Hortensia"/>     
-                </div>
-                <div class="description">
-                    <h2>L'Hortensia</h2>
-                    <p>
-                        Multicolore et mystérieux, l’hortensia est une fleur des émotions profondes. 
-                        Le rose chuchote un amour sincère, le blanc respire la paix et l’innocence, 
-                        le bleu évoque le souvenir et la mélancolie, et le violet s’empreint d’un doux recueillement.
-                    </p>
-                </div>
-            </div>
-        
-            <div className='section_items'>
-                <div className='img_container'>
-                    <img  src={germini} alt="Le Germini"/> 
-                </div>
-                <div class="description">
-                    <h2>Le Germini</h2>
-                    <p>
-                        Petite étoile solaire, le germini est l’incarnation de la joie et de la vitalité. 
-                        Sa lumière vive illumine les cœurs et diffuse une énergie positive et contagieuse, 
-                        un éclat de bonheur à chaque regard.
-                    </p>
-                </div>
-            </div>
-        
-            <div className='section_items'>
-                <div className='img_container'>
-                    <img  src={tulipe} alt="La Tulipe"/>    
-                </div>
-                <div class="description">
-                    <h2>La Tulipe</h2>
-                    <p>
-                        Élégante et intemporelle, la tulipe raconte l’amour sous toutes ses formes. 
-                        Rouge pour la passion, blanche pour la sincérité, elle exprime des sentiments 
-                        profonds et universels avec une simplicité désarmante.
-                    </p>
-                </div>
-            </div>
-        </section>
+            </section>
+        </main>
     </>
 }
 

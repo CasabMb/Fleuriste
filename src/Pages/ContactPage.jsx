@@ -20,6 +20,10 @@ function ContactPage() {
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     </Helmet>
     <main className='contact_main'>
+      <div className='contact_text'>
+        <h1>Contactez Sweet Blossom : Nous sommes à votre écoute !</h1>
+        <p>Vous avez une question, une demande particulière ou souhaitez en savoir plus sur nos compositions florales ? L’équipe de Sweet Blossom est à votre écoute pour répondre à toutes vos attentes. Que ce soit pour un événement spécial – mariage, baptême, anniversaire – ou pour toute autre événement, contactez-nous via notre formulaire, par téléphone ou rendez-nous visite directement.</p>
+      </div>
       <section id="contact_page">
         <FormulaireComponent />
         <MapComponent />

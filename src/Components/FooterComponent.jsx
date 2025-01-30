@@ -9,10 +9,14 @@ import { useNavigate } from 'react-router-dom'
 
 function FooterComponent() {
     const navigate = useNavigate();
+    const handleNavigation = () => {
+        navigate('/ContactPage');
+        setTimeout(() => window.scrollTo(0, 0), 50);
+    };
 
     return <>
         <footer>
-            <div className="footer_partie_un" onClick={() => navigate('/ContactPage')}>
+            <div className="footer_partie_un" onClick={handleNavigation}>
                 <div className="courriel_contact_container">
                     <img
                         src={courriel}

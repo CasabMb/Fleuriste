@@ -4,7 +4,63 @@
 	box-sizing: border-box;
 	scroll-behavior: smooth;
 }
+@font-face {
+	font-family: 'JacquesFrancois';
+	src: url('../src/Asset/Fonts/JacquesFrancois-Regular.ttf') format('truetype');
+}
+h1, h2 {
+	font-family: jacquesfrancois;
+}
+p{
+	font-family: poppins;
+}
 img {
 	height: 100%;
 	width: 100%;
+}
+/* Toast pour un succès */
+.Toastify__toast--success {
+	background-color: #945a31 !important; 
+	color:  #fff4ec!important;
+}
+
+/* Toast pour une erreur */
+.Toastify__toast--error {
+	background-color: #f44336 !important; 
+	color: #fff4ec !important;
+}
+
+/* Toast pour une info */
+.Toastify__toast--info {
+	background-color: #2196f3 !important; 
+	color: #fff4ec !important;
+}
+
+/* Toast pour un avertissement */
+.Toastify__toast--warning {
+	background-color: #ffc107 !important; 
+	color: black !important;
+}
+
+/* Style général des toasts */
+.Toastify__toast {
+	font-family: Arial, sans-serif; 
+	border-radius: 8px !important; 
+	padding: 10px !important; 
+}
+
+
+/* Style général pour les messages d'erreur */
+.error {
+    color: #ff4d4d; 
+    font-size: 0.7em; 
+    margin-top: 5px; 
+    font-weight: bold; 
+    border: 1px solid #ff4d4d; 
+    padding: 3px;
+    border-radius: 5px; 
+	margin-left: 10px;
+}
+.error:hover {
+    background-color: #ffcccc; 
 }

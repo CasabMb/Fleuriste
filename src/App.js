@@ -6,6 +6,9 @@ import HomePage from './Pages/HomePage';
 import ContactPage from './Pages/ContactPage';
 import CompositionsPage from './Pages/CompositionsPage';
 import LangagePage from './Pages/LangagePage';
+import { ToastContainer } from 'react-toastify';
+import ScrollToTopButton from './Components/ScrollToTopButton';
+import PopUpComponent from './Components/PopUpComponent';
 
 function App() {
   return <>
@@ -19,6 +22,20 @@ function App() {
       
     </Routes>
     <FooterComponent />
+    <ScrollToTopButton />
+    <PopUpComponent/>
+    <ToastContainer
+      position="bottom-right"
+      autoClose={5000}
+      hideProgressBar={false}
+      newestOnTop={false}
+      closeOnClick
+      rtl={false}
+      pauseOnFocusLoss
+      draggable
+      pauseOnHover
+      theme="colored"
+    />
     </BrowserRouter>
     </>;
 }
