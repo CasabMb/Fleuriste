@@ -2,16 +2,16 @@
 
 Sweet Blossom est un site vitrine élégant conçu pour mettre en valeur les compositions florales d'une boutique spécialisée. Le projet vise à offrir une navigation agréable, une présentation claire des collections florales, et à renforcer la présence en ligne de la boutique.
 
-🎯 Fonctionnalités principales
-Accueil visuellement attrayant : présentation des bouquets phares et messages de bienvenue chaleureux.
-Langage des fleurs : section dédiée à la signification symbolique de chaque fleur.
-Catalogue de compositions florales : mise en avant des collections avec images et descriptions.
-Page de contact : formulaire intégré pour les demandes des clients et une carte interactive pour situer la boutique.
-🛠️ Technologies utilisées
-Frontend : React.js pour la structure du site et une interface utilisateur réactive.
-Styling : CSS personnalisé pour un design responsive et harmonieux.
+🎯 Fonctionnalités principales <br>
+Accueil visuellement attrayant : présentation des bouquets phares et messages de bienvenue chaleureux.<br>
+Langage des fleurs : section dédiée à la signification symbolique de chaque fleur.<br>
+Catalogue de compositions florales : mise en avant des collections avec images et descriptions.<br>
+Page de contact : formulaire intégré pour les demandes des clients et une carte interactive pour situer la boutique.<br><br>
+🛠️ Technologies utilisées<br>
+Frontend : React.js pour la structure du site et une interface utilisateur réactive.<br>
+Styling : CSS personnalisé pour un design responsive et harmonieux.<br>
 Bibliothèques supplémentaires :
-React Helmet pour le SEO.
+React Helmet pour le SEO.<br>
 
 ## 🌐 Découvrez Sweet Blossom  
 
